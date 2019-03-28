@@ -149,8 +149,14 @@ export class EditItemFields extends React.Component {
           <Localized id="item-fields-password">
             <LabelText>pASSWORd</LabelText>
           </Localized>
-          <PasswordInput className={styles.password}
+          <PasswordInput className={styles.password} required
                          {...controlledProps("password")}/>
+          <div className={`${styles.tooltip} ${styles.passwordErrorMsg}`}>
+            <div className={styles.arrowUp}></div>
+            <Localized id="item-fields-password-error-message">
+              <p>eRROr mESSAGe</p>
+            </Localized>
+          </div>
         </label>
       </div>
     );

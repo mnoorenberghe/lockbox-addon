@@ -20,6 +20,7 @@ item-fields-title-input =
 item-fields-origin = Website Address
 item-fields-origin-input =
   .placeholder = https://www.example.com
+item-fields-password-error-message = Password cannot be empty
 item-fields-origin-button = Launch
 item-fields-username = Username
 item-fields-username-input =
